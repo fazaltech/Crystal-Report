@@ -1,0 +1,17 @@
+﻿<Window x:Class="CR_Viewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        xmlns:cr="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer"
+        xmlns:local="clr-namespace:CR_Viewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Loaded="Window_Loaded">
+    <Grid>
+        <cr:CrystalReportsViewer HorizontalAlignment="Left" Name="crystalReportsViewer1"
+                                 VerticalAlignment="Top" Height="500" Width="1000" />
+        
+
+    </Grid>
+</Window>
